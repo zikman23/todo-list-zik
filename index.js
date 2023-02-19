@@ -5,17 +5,23 @@ function App() {
       isCompleted: false,
     },
     {
-      text: 'meet friend for lunch',
-      isCompleted: false,
+      text: 'build todo app',
+      isCompleted: true,
     },
     {
-      text: 'build todo app',
-      isCompleted: false,
+      text: 'customize todo app',
+      isCompleted: true,
     },
   ]);
 
   const addTodo = (text) => {
     const newTodos = [...todos, { text: text, isCompleted: false }];
+    setTodos(newTodos);
+  };
+
+  const markTodo = (index) => {
+    const newTodos = [...todos];
+    newTodos[index].isCompleted = true;
     setTodos(newTodos);
   };
 
@@ -25,12 +31,14 @@ function App() {
     setTodos(temp);
   };
   return (
-    <>
-      {todos.map((todo, i) => (
-        <Todo index={i} key={i} todo={todo} remove={removeTodo} />
-      ))}
-      <TodoForm addTodo={addTodo} />
-    </>
+    <div className="app">
+      <div className="todo-list">
+        {todos.map((todo, i) => (
+          <Todo index={i} key={i} todo={todo} mark={markTodo} remove={removeTodo} />
+        ))}
+        <TodoForm addTodo={addTodo} />
+      </div>
+    </div>
   );
 }
 
