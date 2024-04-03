@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-list-zik/static/css/main.9736fd89.css",
+    "main.js": "/todo-list-zik/static/js/main.d8dded2e.js",
+    "index.html": "/todo-list-zik/index.html",
+    "main.9736fd89.css.map": "/todo-list-zik/static/css/main.9736fd89.css.map",
+    "main.d8dded2e.js.map": "/todo-list-zik/static/js/main.d8dded2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9736fd89.css",
+    "static/js/main.d8dded2e.js"
+  ]
+}
