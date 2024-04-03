@@ -17,11 +17,11 @@ I changed the overall styling as well. I centered the list on the page, changed 
 
 ## How to Run
 
-~~[Click this link](https://zikman23.github.io/todo-list-zik/) to view the app live on GitHub.~~
+[Click this link](https://zikman23.github.io/todo-list-zik/) to view the app live on GitHub.
 
-~~This React app has been deployed to GitHub Pages using `gh-pages` by following the information provided [here](https://github.com/gitname/react-gh-pages).~~
+This React app has been deployed to GitHub Pages using `gh-pages` by following the information provided [here](https://github.com/gitname/react-gh-pages).
 
-~~It is viewable on the web without having to download and run it locally.~~ However, the source code is also provided if you choose to do so. You can download it and run the React app ([sample instructions](https://medium.com/@vikasharry03/react-setup-on-local-computer-912f9a551af3)).
+It is viewable on the web without having to download and run it locally. However, the source code is also provided if you choose to do so. You can download it and run the React app ([sample instructions](https://medium.com/@vikasharry03/react-setup-on-local-computer-912f9a551af3)).
 
 ## Future Improvements
 
